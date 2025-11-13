@@ -1,4 +1,4 @@
-local p=game:GetService("Players").LocalPlayer
+local p=game.Players.LocalPlayer
 if not table.find({2391996272},p.UserId)then print("ask ur owner vex for perms Lmao!") return end
 if not p:IsInGroup(35642989)or p:GetRankInGroup(35642989)~=3 then print("ask ur owner vex for perms LMao!") return end
 local u="https://raw.githubusercontent.com/LundyFrankster/-/refs/heads/main/-"
