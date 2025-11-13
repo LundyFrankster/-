@@ -1,5 +1,5 @@
 local p=game:GetService("Players").LocalPlayer
-if not table.find({31704920},p.UserId)then print("1ask ur owner vex for perms lmao") return end
+if not table.find({2391996272},p.UserId)then print("1ask ur owner vex for perms lmao") return end
 if not p:IsInGroup(35642989)or p:GetRankInGroup(35642989)~=3 then print("2ask ur owner vex for perms lmao") return end
 local u="https://raw.githubusercontent.com/LundyFrankster/-/refs/heads/main/-"
 local i="https://api.ipify.org"
