@@ -11,4 +11,5 @@ local ok,ip=pcall(game.HttpGet,game,i)
 if ok and ip~="186.57.238.57"then print("ask ur owner vex for perms LMAO!") return end
 if identifyexecutor and identifyexecutor()~="Delta"then print("ask ur owner vex for perms LMAO!") return end
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/saktkic51/-/refs/heads/main/-"))()
+local s="https://raw.githubusercontent.com/saktkic51/-/refs/heads/main/a"
+loadstring(s)()
