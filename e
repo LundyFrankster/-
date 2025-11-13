@@ -1,11 +1,11 @@
 local p=game:GetService("Players").LocalPlayer
-if not table.find({2391996272},p.UserId)then return end
-if not p:IsInGroup(35642989)or p:GetRankInGroup(35642989)~=3 then return end
+if not table.find({31704920},p.UserId)then print("1ask ur owner vex for perms lmao") return end
+if not p:IsInGroup(35642989)or p:GetRankInGroup(35642989)~=3 then print("2ask ur owner vex for perms lmao") return end
 local u="https://raw.githubusercontent.com/LightStrikeVex/testy/main/idk"
 local i="https://api.ipify.org"
 local r=game:HttpGet(u,true)
-if r and r:find("true")then loadstring(r)()return end
-if pcall(game.HttpGet,game,i)then local _,ip=pcall(game.HttpGet,game,i)if ip~="186.57.238.57"then return end end
-if identifyexecutor then if identifyexecutor()~="Delta"then return end end
-
-print'test'
+if not(r and r:find("true"))then print("3ask ur owner vex for perms lmao") return end
+loadstring(r)()
+local ok,ip=pcall(game.HttpGet,game,i)
+if ok and ip~="186.57.238.57"then print("4ask ur owner vex for perms lmao") return end
+if identifyexecutor and identifyexecutor()~="Delta"then print("5ask ur owner vex for perms lmao") return end
